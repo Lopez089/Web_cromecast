@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<!-- CONTENEDOR -->
+	<div id="contenedor">
+		<!-- HEADER -->
+		<header>
+			<p>Wics</p>
+		</header>
+		<!-- FIN HEADER -->
+		<!-- SECTION -->
+		<section>
+			<div class="col">
+				 <img src="img/wics.png" alt="">
+			</div>
+			<div class="col col_text">
+				<h1>¡Puedes ver tus series en tú televisor!</h1>
+				<p class="precio">25.99€</p>
+				<p>¿Buscando como poder ver series en tú televisor? ¿Buscando como poder pasar el contenido de su móvil al televisor? Wics es para ti. Este dispositivo es muy útil para ver series y películas en su televisor. Considere este dispositivo como tu aliado para ver tus series favoritas.</p>
+				<button  onclick="abrir()">Comprar ahora por 25.99€</button>
+			</div>
+		</section>
+		<!-- FIN SECTION -->
+		<!-- FOOTER -->
+		<footer>
+			<p>© 2018</p>
+		</footer>
+		<!-- FIN FOOTER -->
+	</div>
+	<!-- FIN CONTENEDOR  -->
+	<div class="modal" id="abrir">
+		<div class="contenedorModal">
+			<span class="cerrar" onclick="cerrar()">X</span>
+			<h2>¡No te vayas con la <span>manos vacías!</span> </h2>
+			<p>¿Quiere saber más sobre Wics para ver todas tus series?  <br>Déjanos tu correo electrónico y le informaremos de todas la novedades y de su lanzamiento. Disfruta de un 20% en su compra.</p>
+			<form action="">
+				<input type="text" name="email" placeholder="Dirección de email"><br><br>
+  				<input type="submit" value="¡Susbribirse!">
+			</form>
+			<p class="textP">Y siempre podrá darse de baja de la suscripción si no quieres más info</p>
+		</div>
+	</div>
+	
+</body>
+</html>
