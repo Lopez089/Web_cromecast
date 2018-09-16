@@ -32,35 +32,49 @@
 	          }
 	      }
 	       .contenedorModal{
-        h2{
-          font-size: 2.2em;
-        }
-        p{
-          font-size: 1.4em;
-        }
-        form{
-        	  display: inline-flex;
-        	  width: 100%;
-        	input[type="text"] {
-                    width:100%;
-                    height: 60px;
-                    padding-left: 0px;
-                    margin-top: 5%;
-                }
-                input[type="submit"] {
-                  width:40%;
-                  height: 60px;
-                  margin-top: 5%;
-                  margin-left: 2%;;
-                  }
-          input{
-            font-size: 1.4em;
-          }
-        }
-        .textP{
-          font-size: 0.9em;
-        }
-      }
+		        h2{
+		          font-size: 2.2em;
+		        }
+		        p{
+		          font-size: 1.4em;
+		        }
+		        form{
+		        	  display: inline-flex;
+		        	  width: 100%;
+		        	input[type="text"] {
+		                    width:100%;
+		                    height: 60px;
+		                    padding-left: 0px;
+		                    margin-top: 5%;
+		                }
+		                input[type="submit"] {
+		                  width:40%;
+		                  height: 60px;
+		                  margin-top: 5%;
+		                  margin-left: 2%;;
+		                  }
+		          input{
+		            font-size: 1.4em;
+		          }
+		        }
+		        .textP{
+		          font-size: 0.9em;
+		        }
+      		}
+      		.feedbackContenedor{
+      			#feedbackText{
+            		width: 40%;
+           			height: 40%;
+         		 }
+		        #feedback{
+		          width: 27%;
+		          height: 26%;
+		        }
+		        .feedbackText{
+		          
+		        }
+		      } 
+		    
 	    }
 	  }
 }

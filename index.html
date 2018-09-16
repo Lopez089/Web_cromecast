@@ -36,6 +36,7 @@
 		<!-- FIN FOOTER -->
 	</div>
 	<!-- FIN CONTENEDOR  -->
+	<!-- MODAL  -->
 	<div class="modal" id="abrir">
 		<div class="contenedorModal">
 			<span class="cerrar" onclick="cerrar()">X</span>
@@ -48,6 +49,27 @@
 			<p class="textP">Y siempre podrá darse de baja de la suscripción si no quieres más info</p>
 		</div>
 	</div>
+	<!-- FIN MODAL  -->
+	<!-- feedback  -->
+	<div class="feedbackContenedor">
+		<div id="feedbackText">
+			<p>¿Cómo podríamo mejorar?</p>
+			<form action="">
+				<textarea name="" placeholder="Pidenos lo que necesitas"></textarea>
+				<input onclick="cerrarComen()" class="cancelar" type="submit" value="CANCELAR">
+				<input type="submit" value="ENVIAR COMENTARIO">
+			</form>
+		</div>
+		<div id="feedback">
+			<p>¿Encontraste lo que buscabas?</p>
+			<ul>
+				<li onclick="abrirComentario()"><img src="img/triste.png" alt=""><span>No</span></li>
+				<li onclick="abrirComentario()""><img src="img/sonrisa.png" alt=""><span>Sí</span></li>
+			</ul>
+		</div>
+		
+	</div>
+	<!-- FIN feedback  -->
 	
 </body>
 </html>
