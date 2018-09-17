@@ -48,7 +48,7 @@
 	<!-- MODAL  -->
 	<div class="modal" id="abrir">
 		<div class="contenedorModal">
-			<span class="cerrar" onclick="ga('send','event','CerrarComprar','click',) cerrar()">X</span>
+			<span class="cerrar" onclick="ga('send','event','CerrarComprar','click',); cerrar()">X</span>
 			<h2>¡No te vayas con la <span>manos vacías!</span> </h2>
 			<p>¿Quiere saber más sobre Wics para ver todas tus series?  <br>Déjanos tu correo electrónico y le informaremos de todas la novedades y de su lanzamiento. Disfruta de un 20% en su compra.</p>
 			<form action="">
@@ -65,15 +65,15 @@
 			<p>¿Cómo podríamo mejorar?</p>
 			<form action="">
 				<textarea name="" placeholder="Pidenos lo que necesitas"></textarea>
-				<input onclick=" ga('send','event','CerrarComentario','click', cerrarComen()" class="cancelar" type="submit" value="CANCELAR">
+				<input onclick=" ga('send','event','CerrarComentario','click',); cerrarComen()" class="cancelar" type="submit" value="CANCELAR">
 				<input onclick="ga('send','event','EnviarComentario','click',)"type="submit" value="ENVIAR COMENTARIO">
 			</form>
 		</div>
 		<div id="feedback">
 			<p>¿Encontraste lo que buscabas?</p>
 			<ul>
-				<li onclick="ga('send','event','EncontrarNo','click',) abrirComentario()"><img src="img/triste.png" alt=""><span>No</span></li>
-				<li onclick="ga('send','event','EncontrarSi','click',) abrirComentario()"><img src="img/sonrisa.png" alt=""><span>Sí</span></li>
+				<li onclick="ga('send','event','EncontrarNo','click',); abrirComentario()"><img src="img/triste.png" alt=""><span>No</span></li>
+				<li onclick="ga('send','event','EncontrarSi','click',); abrirComentario()"><img src="img/sonrisa.png" alt=""><span>Sí</span></li>
 			</ul>
 		</div>
 		
