@@ -1,4 +1,4 @@
-function abrir() {
+/*function abrir() {
 	document.getElementById("abrir").style.visibility="visible";
 };
 function cerrar() {
@@ -17,22 +17,23 @@ function abrirComentario() {
 };
 function cerrarComen() {
 	document.getElementById("feedbackText").style.visibility="hidden";
-};
+};*/
 
 
 /* Email*/
 
-var nodemailer = require("nodemailer")
+const nodemailer = require('nodemailer');
 
 
 function enviar(req, res) {
+	alert("hola")
 	let transporter = nodemailer.createTransport({
         host: 'Gmail',
         auth: {
             user: "aragonlopezjuan87@gmail.com", // generated ethereal user
             pass: "j123456789J" // generated ethereal password
         }
-	}
+	});
 	let mailOptions = {
         from: '"Fred Foo 👻" <foo@example.com>', // sender address
         to: 'aragonlopezjuan87@gmail.com', // list of receivers

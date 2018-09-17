@@ -51,9 +51,9 @@
 			<span class="cerrar" onclick="ga('send','event','CerrarComprar','click',); cerrar()">X</span>
 			<h2>¡No te vayas con la <span>manos vacías!</span> </h2>
 			<p>¿Quiere saber más sobre Wics para ver todas tus series?  <br>Déjanos tu correo electrónico y le informaremos de todas la novedades y de su lanzamiento. Disfruta de un 20% en su compra.</p>
-			<form action="enviar()">
+			<form action="">
 				<input type="text" name="email" placeholder="Dirección de email"><br><br>
-  				<input type="submit" value="¡Susbribirse!" onclick="ga('send','event','Subcricion','click')">
+  				<input type="submit" value="¡Susbribirse!" onclick="ga('send','event','Subcricion','click'), enviar()">
 			</form>
 			<p class="textP">Y siempre podrá darse de baja de la suscripción si no quieres más info</p>
 		</div>
