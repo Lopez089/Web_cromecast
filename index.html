@@ -34,7 +34,7 @@
 				<h1>¡Puedes ver tus series en tú televisor!</h1>
 				<p class="precio">25.99€</p>
 				<p>¿Buscando como poder ver series en tú televisor? ¿Buscando como poder pasar el contenido de su móvil al televisor? Wics es para ti. Este dispositivo es muy útil para ver series y películas en su televisor. Considere este dispositivo como tu aliado para ver tus series favoritas.</p>
-				<button onclick=" ga('send','event','Comprar','click'); abrir() ">Comprar ahora por 25.99€</button>
+				<button onclick=" ga('send','event','Comprar','click') abrir() ">Comprar ahora por 25.99€</button>
 			</div>
 		</section>
 		<!-- FIN SECTION -->
@@ -48,7 +48,7 @@
 	<!-- MODAL  -->
 	<div class="modal" id="abrir">
 		<div class="contenedorModal">
-			<span class="cerrar" onclick="cerrar()">X</span>
+			<span class="cerrar" onclick="ga('send','event','CerrarComprar','click',) cerrar()">X</span>
 			<h2>¡No te vayas con la <span>manos vacías!</span> </h2>
 			<p>¿Quiere saber más sobre Wics para ver todas tus series?  <br>Déjanos tu correo electrónico y le informaremos de todas la novedades y de su lanzamiento. Disfruta de un 20% en su compra.</p>
 			<form action="">
@@ -65,15 +65,15 @@
 			<p>¿Cómo podríamo mejorar?</p>
 			<form action="">
 				<textarea name="" placeholder="Pidenos lo que necesitas"></textarea>
-				<input onclick="cerrarComen()" class="cancelar" type="submit" value="CANCELAR">
-				<input type="submit" value="ENVIAR COMENTARIO">
+				<input onclick=" ga('send','event','CerrarComentario','click', cerrarComen()" class="cancelar" type="submit" value="CANCELAR">
+				<input onclick="ga('send','event','EnviarComentario','click',)"type="submit" value="ENVIAR COMENTARIO">
 			</form>
 		</div>
 		<div id="feedback">
 			<p>¿Encontraste lo que buscabas?</p>
 			<ul>
-				<li onclick="abrirComentario()"><img src="img/triste.png" alt=""><span>No</span></li>
-				<li onclick="abrirComentario()""><img src="img/sonrisa.png" alt=""><span>Sí</span></li>
+				<li onclick="ga('send','event','EncontrarNo','click',) abrirComentario()"><img src="img/triste.png" alt=""><span>No</span></li>
+				<li onclick="ga('send','event','EncontrarSi','click',) abrirComentario()"><img src="img/sonrisa.png" alt=""><span>Sí</span></li>
 			</ul>
 		</div>
 		
