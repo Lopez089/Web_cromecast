@@ -75,7 +75,7 @@ html {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      visibility: hidden; }
+      visibility: visible; }
       html body #abrir .contenedorModal {
         background: #fff;
         text-align: center; }
@@ -462,7 +462,7 @@ html {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      visibility: hidden; }
+      visibility: visible; }
       html body #abrir .contenedorModal {
         background: #fff;
         text-align: center; }
@@ -698,7 +698,7 @@ html {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      visibility: hidden; }
+      visibility: visible; }
       html body #abrir .contenedorModal {
         background: #fff;
         text-align: center; }
@@ -934,7 +934,7 @@ html {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      visibility: hidden; }
+      visibility: visible; }
       html body #abrir .contenedorModal {
         background: #fff;
         text-align: center; }
